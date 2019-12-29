@@ -198,6 +198,19 @@
 		"textLink.activeForeground": "#fd9999",
 	},
 	"tokenColors":[
+		/*
+			keyword: #c678dd
+			variable: #2c2c2c
+			function: #f2747f
+			number: #FFA500
+			Caps: #FFA500
+			param: #72C7D2
+			child: #61aeee
+			predefine: #ccaa6c
+			comparason/inc: #EB1165
+			True/False: #72C7D2
+		*/
+		// Global settings
 		{
 			"scope": "comment",
 			"settings": {
@@ -218,17 +231,18 @@
 			}
 		},
 		{
-			"scope":"constant.other.placeholder",
+			"scope":["constant.other.placeholder",
+				"constant.character.format.placeholder.other.python"
+			],
 			"settings": {
-				"foreground": "#fd9999"
+				"foreground": "#fd9999",
+				"fontStyle": "bold underline"
 			}
 		},
 		{
 			"name": "Numbers",
 			"scope":["constant.numeric",
 				"keyword.other.unit",
-				"constant.language.true", 
-				"constant.language.false",
 			],
 			"settings": {
 				"foreground": "#FFA500",
@@ -248,26 +262,26 @@
 			"name": "FunctionCall",
 			"scope":["meta.function-call.generic",
 			"entity.name.function.call",
-			"entity.name.function.member"
+			"entity.name.function.member",
+			"support.function.builtin"
 		],
 			"settings": {
-				"foreground": "#f2747f"
+				"foreground": "#f2747f",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "Parameter",
 			"scope":"variable.parameter",
 			"settings": {
-				"foreground": "#61aeee",
+				"foreground": "#72C7D2",
 			}
 		},
 		{
 			"name":"Operators",
-			"scope":["keyword.operator.arithmetic",  
-				"keyword.operator.logical"
-			],
+			"scope":"keyword.operator",
 			"settings": {
-				"foreground": "#c678dd"
+				"foreground": "#EB1165"
 			}
 		},
 		{
@@ -313,6 +327,13 @@
 			}
 		},
 		{
+			"scope": "keyword.operator.assignment",
+			"settings": {
+				"foreground": "#2c2c2c"
+			}
+		},
+		// C/C++
+		{
 			"scope":"entity.name.function.preprocessor",
 			"settings": {
 				"foreground": "#FFA500",
@@ -327,15 +348,9 @@
 			}
 		},
 		{
-			"scope":"support.type.exception.python",
-			"settings": {
-				"foreground": "#2c2c2c"
-			}
-		},
-		{
 			"scope":"constant.other.caps",
 			"settings": {
-				"foreground": "#FFA500"
+				"foreground": "#ccaa6c"
 			}
 		},
 		{
@@ -346,8 +361,8 @@
 		},
 		{
 			"scope":["punctuation.separator.arguments",  
-				"punctuation.separator.period",
-				"punctuation.separator.dot-access"
+				"punctuation.separator.dot-access",
+				"punctuation.separator.delimiter.comma"
 			],
 				
 			"settings": {
@@ -355,17 +370,15 @@
 			}
 		},
 		{
-			"scope":["punctuation.separator.pointer-access",],
+			"scope": "keyword.operator.comparison",
 			"settings": {
-				"foreground": "#61aeee",
-				"fontStyle": "bold"
+				"foreground": "#EB1165"
 			}
 		},
 		{
-			"name": "Builtin",
-			"scope":"support.function.builtin",
+			"scope":["punctuation.separator.pointer-access",],
 			"settings": {
-				"foreground": "#f2747f",
+				"foreground": "#61aeee",
 				"fontStyle": "bold"
 			}
 		},
@@ -395,9 +408,84 @@
 		{
 			"scope":"constant.language",
 			"settings": {
-				"foreground": "#61aeee"
+				"foreground": "#72C7D2"
 			}
 		},
-
+		// VHDL Support
+		{
+			"name": "Library",
+			"scope": ["keyword.reserved.vhdl",
+				"entity.name.tag.vhdl",
+				"support.constant.std_standard.vhdl"
+			],
+			"settings": {
+				"foreground": "#c678dd"
+			}
+		},
+		{
+			"scope":"keyword.operator.vhdl",
+			"settings": {
+				"foreground": "#e6a1a1"
+			}
+		},
+		{
+			"scope":["meta.block.type_statement.vhdl",
+				"entity.name.type.vhdl"
+			],
+			"settings": {
+				"foreground": "#61aeee",
+			}
+		},
+		{
+			"scope":["entity.name.type.ieee_std_logic_1164.vhdl",
+				"meta.block.subtype_indication.vhdl"
+			],
+			"settings": {
+				"foreground": "#f2747f",
+				"fontStyle": "bold"
+			}
+		},
+		// Python
+		{
+			"scope":"support.type.exception.python",
+			"settings": {
+				"foreground": "#2c2c2c"
+			}
+		},
+		{
+			"scope": "entity.name.function.decorator.python",
+			"settings": {
+				"foreground": "#98c379"
+			}
+		},
+		{
+			"scope": ["support.variable.magic.python",
+				"support.function.magic.python"
+			],
+			"settings": {
+				"foreground": "#ccaa6c"
+			}
+		},
+		{
+			"scope": ["variable.parameter.function.language.special.self.python",
+			"variable.language.special.self.python"
+			],
+			"settings": {
+				"foreground": "#fd9999"
+			}
+		},
+		{
+			"scope": "storage.type.function.python",
+			"settings": {
+				"foreground": "#c678dd",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "keyword.operator.logical.python",
+			"settings": {
+				"foreground": "#c678dd"
+			}
+		}
 	]
 }

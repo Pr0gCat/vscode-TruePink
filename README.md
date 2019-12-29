@@ -8,6 +8,6 @@ Currently supported language:
 * C
 * C++
 * Python
-
+* VHDL
 
 We like pink.
