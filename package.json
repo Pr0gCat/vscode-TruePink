@@ -1,0 +1,21 @@
+{
+    "name": "truepink",
+    "displayName": "TruePink",
+    "description": "Splashing pink on your screen doesn't mean it is a good pink theme.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "TruePink",
+                "uiTheme": "vs",
+                "path": "./themes/TruePink-color-theme.json"
+            }
+        ]
+    }
+}
