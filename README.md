@@ -3,5 +3,11 @@
 
 Still work in progress, feedbacks is always welcome :)
 
+Currently supported language:
+
+* C
+* C++
+* Python
+
 
 We like pink.
