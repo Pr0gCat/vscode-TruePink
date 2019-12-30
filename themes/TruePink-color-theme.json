@@ -281,7 +281,7 @@
 			"name":"Operators",
 			"scope":"keyword.operator",
 			"settings": {
-				"foreground": "#EB1165"
+				"foreground": "#2c2c2c"
 			}
 		},
 		{
