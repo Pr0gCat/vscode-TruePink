@@ -267,7 +267,7 @@
 		],
 			"settings": {
 				"foreground": "#f2747f",
-				"fontStyle": "bold"
+				// "fontStyle": "bold"
 			}
 		},
 		{
