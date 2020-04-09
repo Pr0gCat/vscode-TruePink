@@ -133,8 +133,8 @@
 		"list.dropBackground": "#e9dfdf",
 		"list.errorForeground": "#61aeee",
 		"list.warningForeground": "#ccaa6c",
-		"list.filterMatchBackground": "#ff0000",
-		"list.filterMatchBorder": "#ff0000",
+		"list.filterMatchBackground": "#ff000000",
+		"list.filterMatchBorder": "#ff000000",
 		"list.focusBackground": "#f7f7f7",
 		"list.focusForeground": "#fdabab",
 		"list.highlightForeground": "#61aeee",
@@ -332,7 +332,9 @@
 				"foreground": "#2c2c2c"
 			}
 		},
+		//
 		// C/C++
+		//
 		{
 			"scope":"entity.name.function.preprocessor",
 			"settings": {
@@ -411,7 +413,16 @@
 				"foreground": "#72C7D2"
 			}
 		},
-		// VHDL Support
+		{
+			"scope": "storage.modifier.array.bracket.square",
+			"settings": {
+				"foreground": "#2c2c2c",
+				"fontStyle": ""
+			}
+		},
+		//
+		// VHDL Section
+		//
 		{
 			"name": "Library",
 			"scope": ["keyword.reserved.vhdl",
@@ -445,7 +456,9 @@
 				"fontStyle": "bold"
 			}
 		},
-		// Python
+		//
+		// Python Section
+		//
 		{
 			"scope":"support.type.exception.python",
 			"settings": {
@@ -485,6 +498,93 @@
 			"scope": "keyword.operator.logical.python",
 			"settings": {
 				"foreground": "#c678dd"
+			}
+		},
+		//
+		// Markdown
+		//
+		{
+			"scope": "markup.heading.markdown",
+			"settings": {
+				"foreground": "#f2747f",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "markup.underline.link.markdown",
+			"settings": {
+				"foreground": "#ccaa6c",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": "markup.bold.markdown",
+			"settings": {
+				"foreground": "#ccaa6c",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "markup.quote.markdown",
+			"settings": {
+				"foreground": "#98c379",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": ["markup.list.unnumbered.markdown",
+				"markup.list.numbered.markdown",
+				"meta.link.inline.markdown"
+			],
+			"settings": {
+				"foreground": "#61aeee",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": ["punctuation.definition.list.begin.markdown",
+				"meta.separator.markdown"
+			],
+			"settings": {
+				"foreground": "#c678dd",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": ["markup.raw.block.markdown",
+				"markup.fenced_code.block.markdown"
+			],
+			"settings": {
+				"foreground": "#72C7D2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "markup.inline.raw.string.markdown",
+			"settings": {
+				"foreground": "#FFA500",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "markup.inline.raw.string.markdown",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "punctuation.definition.metadata.markdown",
+			"settings": {
+				"foreground": "#2c2c2c",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": ["punctuation.definition.string.begin.markdown",
+				"punctuation.definition.string.end.markdown"
+			],
+			"settings": {
+				"fontStyle": ""
 			}
 		}
 	]

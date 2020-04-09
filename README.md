@@ -8,5 +8,7 @@ Currently supported language:
 * C++
 * Python
 * VHDL
+* Markdown (WIP)
+* JavaScript & css (PENDING)
 
-We like pink.
+> We like pink.
