@@ -194,8 +194,10 @@
 		"editorWidget.background": "#f7f7f7",
 
 		"descriptionForeground": "#fd9999",
-		"textLink.foreground": "#2c2c2c",
+		"textLink.foreground": "#61aeee",
 		"textLink.activeForeground": "#fd9999",
+	
+		"textPreformat.foreground": "#ccaa6c"
 	},
 	"tokenColors":[
 		/*
