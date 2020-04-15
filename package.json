@@ -2,7 +2,7 @@
     "name": "truepink",
     "displayName": "TruePink",
     "description": "Splashing pink on your screen doesn't mean it is a good pink theme.",
-    "version": "0.3.0",
+    "version": "1.0.0",
     "publisher": "ProgCat",
     "repository": {
         "url": "https://dev.azure.com/ProgCat2019/vscode-TruePink"
