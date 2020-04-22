@@ -26,7 +26,7 @@
 		//Indent Guide
 		"editorIndentGuide.background": "#c0c0c0",
 		"editorIndentGuide.activeBackground": "#fd999973",
-		"tree.indentGuidesStroke": "#ff0000",
+		"tree.indentGuidesStroke": "#000000",
 
 		//Line number
 		"editorMarkerNavigation.background": "#c0c0c0",
@@ -56,7 +56,7 @@
 		"editorOverviewRuler.selectionHighlightForeground": "#ffabab55",
 		"editor.wordHighlightBackground": "#ffffff",
 
-		"editor.inactiveSelectionBackground": "#fd9999",
+		"editor.inactiveSelectionBackground": "#ffabab55",
 		"editor.selectionForeground": "#ffb2b2ec",
 		"editor.selectionBackground": "#faeded",
 
@@ -194,7 +194,7 @@
 		"editorWidget.background": "#f7f7f7",
 
 		"descriptionForeground": "#fd9999",
-		"textLink.foreground": "#2c2c2c",
+		"textLink.foreground": "#61aeee",
 		"textLink.activeForeground": "#fd9999",
 	},
 	"tokenColors":[
@@ -586,6 +586,23 @@
 			"settings": {
 				"fontStyle": ""
 			}
+		},
+		//
+		//	JS
+		//
+		{
+			"scope": "entity.name.function.js",
+			"settings": {
+				"foreground": "#f2747f",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "variable.language.this.js",
+			"settings": {
+				"foreground": "#fd9999"
+			}
 		}
+		//TODO: support library
 	]
 }
