@@ -50,7 +50,7 @@
 		"editor.lineHighlightBackground": "#fd999928",
 		
 		//Selection
-		"selection.background": "#ffabab55",
+		"selection.background": "#ffabab81",
 		"editor.selectionHighlightBackground": "#ffabab55",
 		"editor.selectionHighlightBorder": "#ff000000",
 		"editorOverviewRuler.selectionHighlightForeground": "#ffabab55",
@@ -196,6 +196,8 @@
 		"descriptionForeground": "#fd9999",
 		"textLink.foreground": "#61aeee",
 		"textLink.activeForeground": "#fd9999",
+	
+		"textPreformat.foreground": "#ccaa6c"
 	},
 	"tokenColors":[
 		/*
