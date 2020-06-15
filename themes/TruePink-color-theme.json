@@ -50,15 +50,21 @@
 		"editor.lineHighlightBackground": "#fd999928",
 		
 		//Selection
-		"selection.background": "#ffabab81",
-		"editor.selectionHighlightBackground": "#ffabab55",
-		"editor.selectionHighlightBorder": "#ff000000",
+		"selection.background": "#ffd8d8",
+
+		"editor.selectionHighlightBackground": "#ff000000",
+		"editor.selectionHighlightBorder": "#ff9f9f",
+		"editor.wordHighlightBackground": "#00000000",
+		"editor.wordHighlightBorder": "#ff8e8e",
+		"editor.wordHighlightStrongBackground": "#ffe5e5",
+		"editor.wordHighlightStrongBorder": "#ff9f9f",
+
+		//TODO: Colorize OverviewRuler
 		"editorOverviewRuler.selectionHighlightForeground": "#ffabab55",
-		"editor.wordHighlightBackground": "#ffffff",
 
 		"editor.inactiveSelectionBackground": "#ffabab55",
-		"editor.selectionForeground": "#ffb2b2ec",
-		"editor.selectionBackground": "#faeded",
+		"editor.selectionForeground": "#ffa1a1",
+		"editor.selectionBackground": "#ffc3c3a2",
 
 		//Menu Bar
 		"menubar.selectionBackground": "#f7f7f7",
