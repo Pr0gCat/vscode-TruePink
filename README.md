@@ -8,7 +8,8 @@ Currently supported language:
 * C++
 * Python
 * VHDL
-* Markdown (WIP)
+* Markdown
 * JavaScript & css (PENDING)
+* C# (WIPs)
 
 > We like pink.

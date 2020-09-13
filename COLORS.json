@@ -1,11 +1,11 @@
 {
-    "": "#c678dd", //purple
+    "keyword": "#c678dd", //purple
 	"variable": "#2c2c2c", //black
 	"function": "#f2747f", //dark pink
 	"literal": "#FFA500", //orange
-	"parameters": "#72C7D2", //cyan
+	"parameter": "#72C7D2", //cyan
 	"child": "#61aeee", //light blue
 	"predefine": "#ccaa6c", //dark orange
 	"comparason/inc": "#eb1165", //red
-	"": "#98c379"//green
+	"directive/others": "#98c379"//green
 }

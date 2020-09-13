@@ -203,7 +203,10 @@
 		"textLink.foreground": "#61aeee",
 		"textLink.activeForeground": "#fd9999",
 	
-		"textPreformat.foreground": "#ccaa6c"
+		"textPreformat.foreground": "#ccaa6c",
+
+		"editorLink.activeForeground":"#61aeee",
+
 	},
 	"tokenColors":[
 		/*
@@ -211,14 +214,16 @@
 			variable: #2c2c2c
 			function: #f2747f
 			number: #FFA500
-			Caps: #FFA500
+			caps: #FFA500
 			param: #72C7D2
 			child: #61aeee
 			predefine: #ccaa6c
 			comparason/inc: #EB1165
-			True/False: #72C7D2
+			constant: #72C7D2
 		*/
+		//
 		// Global settings
+		//
 		{
 			"scope": "comment",
 			"settings": {
@@ -250,10 +255,12 @@
 		{
 			"name": "Numbers",
 			"scope":["constant.numeric",
+				"storage.type.number",
 				"keyword.other.unit",
 			],
 			"settings": {
 				"foreground": "#FFA500",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -308,7 +315,7 @@
 			}
 		},
 		{
-			"scope":"keyword.control.directive",
+			"scope": "keyword.control.directive",
 			"settings": {
 				"foreground": "#98c379",
 				"fontStyle": "bold"
@@ -344,21 +351,21 @@
 		// C/C++
 		//
 		{
-			"scope":"entity.name.function.preprocessor",
+			"scope": "entity.name.function.preprocessor",
 			"settings": {
 				"foreground": "#FFA500",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope":"keyword.operator.new",
+			"scope": "keyword.operator.new",
 			"settings": {
 				"foreground": "#f2747f",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope":"constant.other.caps",
+			"scope": "constant.other.caps",
 			"settings": {
 				"foreground": "#ccaa6c"
 			}
@@ -370,8 +377,12 @@
 			}
 		},
 		{
-			"scope":["punctuation.separator.arguments",  
-				"punctuation.separator.dot-access",
+			"scope":[
+				"punctuation.separator.arguments",  
+				"punctuation.separator.parameters",
+				"punctuation.separator.element",
+				// "punctuation.separator.dot-access",
+				"punctuation.separator.comma",
 				"punctuation.separator.delimiter.comma"
 			],
 				
@@ -402,7 +413,8 @@
 			"scope":["storage.modifier",
 				"storage.type", 
 				"support.type",
-				"keyword.other.typedef"
+				"keyword.other.typedef",
+				"keyword.other.using"
 			],
 			"settings": {
 				"foreground": "#c678dd",
@@ -429,7 +441,7 @@
 			}
 		},
 		//
-		// VHDL Section
+		// VHDL
 		//
 		{
 			"name": "Library",
@@ -465,7 +477,7 @@
 			}
 		},
 		//
-		// Python Section
+		// Python
 		//
 		{
 			"scope":"support.type.exception.python",
@@ -610,7 +622,73 @@
 			"settings": {
 				"foreground": "#fd9999"
 			}
+		},
+		//
+		//	C#
+		//
+		{
+			"scope": ["keyword.other.class.cs", "keyword.other.using.cs", "keyword.other.namespace.cs"],
+			"settings": {
+				"foreground": "#c678dd",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.type.cs",
+			"settings": {
+				"foreground": "#c678dd",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.other.new.cs",
+			"settings": {
+				"foreground": "#f2747f",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "entity.name.function.cs",
+			"settings": {
+				"foreground": "#f2747f",
+			}
+		},
+		{
+			"scope": "keyword.other.this.cs",
+			"settings": {
+				"foreground": "#fd9999",
+			}
+		},
+		{
+			"scope": "keyword.other.enum.cs",
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.operator.null-conditional.cs",
+			"settings": {
+				"foreground": "#F2747F",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "meta.preprocessor.cs",
+			"settings": {
+				"foreground": "#98c379",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.variable.preprocessor.symbol.cs",
+				"string.unquoted.preprocessor.message.cs"
+			],
+			"settings": {
+				"foreground": "#FFA500",
+				"fontStyle": "bold"
+			}
 		}
-		//TODO: support library
 	]
 }
