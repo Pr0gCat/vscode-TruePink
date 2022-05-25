@@ -123,8 +123,13 @@
 		"activityBar.inactiveForeground": "#8a8a8a", // icon color
 		
 		//Diff Editor
-		"diffEditor.removedTextBackground": "#fdabab",
-		"diffEditor.insertedTextBackground": "#61aeee",
+		"diffEditor.removedTextBackground": "#fdabab5e",
+		"diffEditor.removedTextBorder": "#00000000",
+		"diffEditor.insertedTextBackground": "#61afee31",
+		"diffEditor.insertedTextBorder": "#00000000",
+		"diffEditor.diagonalFill": "#cbcbcb",
+		"diffEditorGutter.insertedLineBackground": "#62abe65a",
+		"diffEditorGutter.removedLineBackground": "#fdabab90",
 
 		// minimap
 		"minimap.selectionHighlight": "#00000000",
@@ -206,6 +211,24 @@
 		"textPreformat.foreground": "#ccaa6c",
 
 		"editorLink.activeForeground":"#61aeee",
+
+		// Bracket pair colorization
+		// DENIED!
+		"editorBracketHighlight.foreground1": "#2c2c2c",
+		"editorBracketHighlight.foreground2": "#2c2c2c", // usually 
+		"editorBracketHighlight.foreground3": "#2c2c2c",
+		"editorBracketHighlight.foreground4": "#61aeee",
+		"editorBracketHighlight.foreground5": "#fd9999",
+		"editorBracketHighlight.foreground6": "#61aeee",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#afb2b8",
+
+		// disable editorBracketPairGuide
+		"editorBracketPairGuide.activeBackground1": "#fdb7b7",
+		"editorBracketPairGuide.activeBackground2": "#fdb7b7",
+		"editorBracketPairGuide.activeBackground3": "#fdb7b7",
+		"editorBracketPairGuide.activeBackground4": "#fdb7b7",
+		"editorBracketPairGuide.activeBackground5": "#fdb7b7",
+		"editorBracketPairGuide.activeBackground6": "#fdb7b7",
 
 	},
 	"tokenColors":[
