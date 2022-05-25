@@ -16,7 +16,11 @@
 
 - Add ```editorLink.activeForeground``` color
 
-## Version 1.4.0
+## Version 1.5.0
 
 - Support for ```Bracket pair colorization```
 - Tweaked ```diffEditor``` colors
+
+## Version 1.5.1
+
+- Fixed screenshot
