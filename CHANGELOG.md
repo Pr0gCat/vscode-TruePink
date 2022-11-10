@@ -24,3 +24,15 @@
 ## Version 1.5.1
 
 - Fixed screenshot
+
+## Version 1.5.2 ~ 1.5.3
+
+- ┐(´д`)┌
+
+## Version 1.5.4
+
+- Added keywords for SEO
+
+## Version 1.5.5
+
+- Keyword optimization
