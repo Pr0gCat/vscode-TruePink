@@ -2,19 +2,25 @@
     "name": "truepink",
     "displayName": "True Pink Theme",
     "description": "Splashing pink on your screen doesn't mean it is a good pink theme.",
-    "version": "1.5.3",
+    "version": "1.5.4",
     "publisher": "ProgCat",
     "repository": {
         "type": "git",
         "url": "https://github.com/Pr0gCat/vscode-TruePink"
     },
     "engines": {
-        "vscode": "^1.41.0"
+        "vscode": "*"
     },
     "categories": [
         "Themes"
     ],
-    "keywords": ["True Pink", "Pink", "Pink theme", "theme", "light theme gang"],
+    "keywords": [
+        "True Pink",
+        "pink",
+        "pink theme",
+        "theme",
+        "light theme gang"
+    ],
     "contributes": {
         "themes": [
             {
