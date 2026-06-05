@@ -6,3 +6,5 @@ vsc-extension-quickstart.md
 samples/**
 scripts/**
 docs/**
+test/**
+COLORS.json
