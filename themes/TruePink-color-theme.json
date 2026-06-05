@@ -326,7 +326,7 @@
 			"name": "Enum member",
 			"scope":["variable.other.enummember"],
 			"settings": {
-				"foreground": "#61aeee"
+				"foreground": "#2c2c2c"
 			}
 		},
 		{
@@ -712,6 +712,19 @@
 				"foreground": "#FFA500",
 				"fontStyle": "bold"
 			}
-		}
+		},
+		//
+		// TypeScript / JavaScript (language-neutral first)
+		//
+		{ "name": "Type names (interface/enum/alias/class/builtin)", "scope": ["entity.name.type", "support.class"], "settings": { "foreground": "#61aeee", "fontStyle": "bold" } },
+		{ "name": "this / super", "scope": ["variable.language.this", "variable.language.super"], "settings": { "foreground": "#fd9999" } },
+		{ "name": "Function declaration (bold)", "scope": ["meta.definition.function entity.name.function", "meta.definition.method entity.name.function"], "settings": { "foreground": "#f2747f", "fontStyle": "bold" } },
+		{ "name": "Function call", "scope": ["entity.name.function", "support.function"], "settings": { "foreground": "#f2747f" } },
+		{ "name": "Arrow function token", "scope": ["storage.type.function.arrow"], "settings": { "foreground": "#2c2c2c" } },
+		{ "name": "Relational / comparison operators", "scope": ["keyword.operator.relational", "keyword.operator.comparison"], "settings": { "foreground": "#EB1165" } },
+		{ "name": "Decorator", "scope": ["meta.decorator entity.name.function", "meta.decorator punctuation.decorator", "entity.name.function.decorator"], "settings": { "foreground": "#98c379" } },
+		{ "name": "Template string", "scope": ["string.template", "punctuation.definition.string.template.begin", "punctuation.definition.string.template.end"], "settings": { "foreground": "#fd9999" } },
+		{ "name": "Template expression braces", "scope": ["punctuation.definition.template-expression.begin", "punctuation.definition.template-expression.end"], "settings": { "foreground": "#61aeee" } },
+		{ "name": "Type parameter", "scope": ["entity.name.type.parameter"], "settings": { "foreground": "#61aeee", "fontStyle": "bold" } }
 	]
 }

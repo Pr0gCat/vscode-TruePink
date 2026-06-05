@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "TruePink",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 24,
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "editor.renderWhitespace": "none",
+    "window.menuBarVisibility": "compact",
+    "editor.semanticHighlighting.enabled": false
+}

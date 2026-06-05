@@ -13,7 +13,9 @@ Currently supported language:
 * Python
 * VHDL
 * Markdown
-* JavaScript & css (PENDING)
+* TypeScript
+* JavaScript
+* CSS (PENDING)
 * C# (WIPs)
 
 > We like pink.
