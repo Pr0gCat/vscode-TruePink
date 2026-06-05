@@ -47,3 +47,9 @@
 
 - Added CSS syntax highlighting
 - Added HTML syntax highlighting
+
+## Version 1.8.0
+
+- Added JSON / YAML / XML syntax highlighting
+- Added TOML support (requires a TOML extension such as Even Better TOML)
+- TOML/INI key thin pink, [table] purple

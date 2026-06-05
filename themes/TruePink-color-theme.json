@@ -741,6 +741,11 @@
 		//
 		{ "name": "HTML tag", "scope": ["entity.name.tag"], "settings": { "foreground": "#c678dd" } },
 		{ "name": "HTML attribute name", "scope": ["entity.other.attribute-name.html", "entity.other.attribute-name"], "settings": { "foreground": "#f2747f" } },
-		{ "name": "HTML entity", "scope": ["constant.character.entity.html", "constant.character.entity"], "settings": { "foreground": "#FFA500" } }
+		{ "name": "HTML entity", "scope": ["constant.character.entity.html", "constant.character.entity"], "settings": { "foreground": "#FFA500" } },
+		//
+		// Config (INI/TOML)
+		//
+		{ "name": "INI/TOML key", "scope": ["keyword.other.definition.ini", "support.type.property-name.toml", "entity.name.tag.toml"], "settings": { "foreground": "#f2747f", "fontStyle": "" } },
+		{ "name": "INI/TOML section/table", "scope": ["entity.name.section.group-title.ini", "support.type.property-name.table.toml", "support.type.property-name.array.toml"], "settings": { "foreground": "#c678dd", "fontStyle": "bold" } }
 	]
 }

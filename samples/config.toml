@@ -1,0 +1,13 @@
+# TruePink config — TOML
+name = "TruePink"
+version = 1.7
+enabled = true
+tags = ["pink", "light", "theme"]
+
+[meta]
+stars = 100
+ratio = 0.95
+created = 2026-06-05
+
+[meta.author]
+name = "ProgCat"

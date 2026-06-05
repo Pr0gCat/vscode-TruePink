@@ -1,0 +1,12 @@
+{
+  "name": "TruePink",
+  "version": 1.7,
+  "enabled": true,
+  "author": null,
+  "tags": ["pink", "light", "theme"],
+  "meta": {
+    "stars": 100,
+    "ratio": 0.95,
+    "nested": { "deep": ["a", "b"] }
+  }
+}
