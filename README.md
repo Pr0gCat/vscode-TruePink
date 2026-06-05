@@ -15,7 +15,8 @@ Currently supported language:
 * Markdown
 * TypeScript
 * JavaScript
-* CSS (PENDING)
+* CSS
+* HTML
 * C# (WIPs)
 
 > We like pink.
