@@ -36,3 +36,9 @@
 ## Version 1.5.5
 
 - Keyword optimization
+
+## Version 1.6.0
+
+- Added TypeScript & JavaScript syntax highlighting
+- enum members are now neutral black (gold reserved for constants/macros)
+- Added screenshot-based preview tooling (scripts/preview.ps1, samples/)

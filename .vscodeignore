@@ -3,3 +3,6 @@
 .gitignore
 vsc-extension-quickstart.md
 *.vsix
+samples/**
+scripts/**
+docs/**
