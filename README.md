@@ -17,6 +17,10 @@ Currently supported language:
 * JavaScript
 * CSS
 * HTML
+* JSON
+* YAML
+* XML
+* TOML (requires a TOML extension, e.g. Even Better TOML)
 * C# (WIPs)
 
 > We like pink.
