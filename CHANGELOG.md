@@ -37,7 +37,7 @@
 
 - Keyword optimization
 
-## Version 1.6.0
+## Version 1.6.0 (2026-06-06)
 
 - Added syntax highlighting for many more languages: TypeScript, JavaScript, CSS, HTML, JSON, YAML, XML, Rust, Go, Java, PHP, Shell, SQL, Ruby
 - enum members neutral black; gold reserved for constants/macros
