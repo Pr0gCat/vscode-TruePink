@@ -1,0 +1,29 @@
+/* TruePink syntax preview — CSS */
+@import "reset.css";
+
+:root {
+    --main-color: #fd9999;
+    --gap: 8px;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.card,
+#hero > .title:hover {
+    color: var(--main-color);
+    margin: 0 auto;
+    padding: 10px 1.5em;
+    display: flex;
+    background: linear-gradient(90deg, #ffffff 0%, pink 100%);
+    font-size: 16px !important;
+    content: "hello";
+}
+
+@media (max-width: 600px) {
+    .card {
+        display: none;
+    }
+}
