@@ -42,3 +42,8 @@
 - Added TypeScript & JavaScript syntax highlighting
 - enum members are now neutral black (gold reserved for constants/macros)
 - Added screenshot-based preview tooling (scripts/preview.ps1, samples/)
+
+## Version 1.7.0
+
+- Added CSS syntax highlighting
+- Added HTML syntax highlighting
