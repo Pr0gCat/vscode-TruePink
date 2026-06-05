@@ -39,24 +39,9 @@
 
 ## Version 1.6.0
 
-- Added TypeScript & JavaScript syntax highlighting
-- enum members are now neutral black (gold reserved for constants/macros)
-- Added screenshot-based preview tooling (scripts/preview.ps1, samples/)
-
-## Version 1.7.0
-
-- Added CSS syntax highlighting
-- Added HTML syntax highlighting
-
-## Version 1.8.0
-
-- Added JSON / YAML / XML syntax highlighting
-- Added TOML support (requires a TOML extension such as Even Better TOML)
-- TOML/INI key thin pink, [table] purple
-
-## Version 1.9.0
-
-- Added Rust, Go, Java, PHP, Shell, SQL, Ruby syntax highlighting
-- Language-specific keywords now coloured (use/impl/fn, func/const/type, import/package, namespace, SELECT/FROM, etc.)
+- Added syntax highlighting for many more languages: TypeScript, JavaScript, CSS, HTML, JSON, YAML, XML, Rust, Go, Java, PHP, Shell, SQL, Ruby
+- enum members neutral black; gold reserved for constants/macros
 - Rust: self/Self pink, primitive types purple (like C int), macro pink
 - Java import/package paths black like Python; PHP <?php green
+- TOML supported when a TOML extension (e.g. Even Better TOML) is installed
+- Added screenshot-based preview tooling (scripts/preview.ps1, samples/)
