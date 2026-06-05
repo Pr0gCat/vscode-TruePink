@@ -53,3 +53,10 @@
 - Added JSON / YAML / XML syntax highlighting
 - Added TOML support (requires a TOML extension such as Even Better TOML)
 - TOML/INI key thin pink, [table] purple
+
+## Version 1.9.0
+
+- Added Rust, Go, Java, PHP, Shell, SQL, Ruby syntax highlighting
+- Language-specific keywords now coloured (use/impl/fn, func/const/type, import/package, namespace, SELECT/FROM, etc.)
+- Rust: self/Self pink, primitive types purple (like C int), macro pink
+- Java import/package paths black like Python; PHP <?php green

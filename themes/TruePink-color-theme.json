@@ -717,7 +717,7 @@
 		// TypeScript / JavaScript (language-neutral first)
 		//
 		{ "name": "Type names (interface/enum/alias/class/builtin)", "scope": ["entity.name.type", "support.class"], "settings": { "foreground": "#61aeee", "fontStyle": "bold" } },
-		{ "name": "this / super", "scope": ["variable.language.this", "variable.language.super"], "settings": { "foreground": "#fd9999" } },
+		{ "name": "this / super", "scope": ["variable.language.this", "variable.language.super", "variable.language.self"], "settings": { "foreground": "#fd9999" } },
 		{ "name": "Function declaration (bold)", "scope": ["meta.definition.function entity.name.function", "meta.definition.method entity.name.function"], "settings": { "foreground": "#f2747f", "fontStyle": "bold" } },
 		{ "name": "Function call", "scope": ["entity.name.function", "support.function"], "settings": { "foreground": "#f2747f" } },
 		{ "name": "Arrow function token", "scope": ["storage.type.function.arrow"], "settings": { "foreground": "#2c2c2c" } },
@@ -746,6 +746,21 @@
 		// Config (INI/TOML)
 		//
 		{ "name": "INI/TOML key", "scope": ["keyword.other.definition.ini", "support.type.property-name.toml", "entity.name.tag.toml"], "settings": { "foreground": "#f2747f", "fontStyle": "" } },
-		{ "name": "INI/TOML section/table", "scope": ["entity.name.section.group-title.ini", "support.type.property-name.table.toml", "support.type.property-name.array.toml"], "settings": { "foreground": "#c678dd", "fontStyle": "bold" } }
+		{ "name": "INI/TOML section/table", "scope": ["entity.name.section.group-title.ini", "support.type.property-name.table.toml", "support.type.property-name.array.toml"], "settings": { "foreground": "#c678dd", "fontStyle": "bold" } },
+		//
+		// Java
+		//
+		{ "name": "Java import/package path (black like Python)", "scope": ["storage.modifier.import.java", "storage.modifier.package.java"], "settings": { "foreground": "#2c2c2c", "fontStyle": "" } },
+		//
+		// Rust
+		//
+		{ "name": "Rust primitive/numeric types (purple like C int)", "scope": ["entity.name.type.primitive.rust", "entity.name.type.numeric.rust"], "settings": { "foreground": "#c678dd" } },
+		{ "name": "Rust keywords (use/impl/fn/crate)", "scope": ["keyword.other.rust", "keyword.other.fn.rust", "keyword.other.crate.rust"], "settings": { "foreground": "#c678dd" } },
+		{ "name": "Rust macro name", "scope": ["entity.name.function.macro.rust", "entity.name.function.macro.rules.rust"], "settings": { "foreground": "#f2747f" } },
+		{ "name": "Java keywords (import/package/reserved/module)", "scope": ["keyword.other.import.java", "keyword.other.package.java", "keyword.reserved.java", "keyword.module.java"], "settings": { "foreground": "#c678dd" } },
+		{ "name": "Go keywords (const/func/type/struct/interface/map/var/chan/package)", "scope": ["keyword.const.go", "keyword.function.go", "keyword.interface.go", "keyword.map.go", "keyword.package.go", "keyword.struct.go", "keyword.type.go", "keyword.var.go", "keyword.channel.go"], "settings": { "foreground": "#c678dd" } },
+		{ "name": "PHP keywords (namespace/class/use/new/clone/type)", "scope": ["keyword.other.namespace.php", "keyword.other.class.php", "keyword.other.new.php", "keyword.other.clone.php", "keyword.other.use.php", "keyword.other.use-as.php", "keyword.other.use-insteadof.php", "keyword.other.function.use.php", "keyword.other.type.php", "keyword.other.type.never.php", "keyword.definition.arrow.php"], "settings": { "foreground": "#c678dd" } },
+		{ "name": "PHP open/close tag", "scope": ["punctuation.section.embedded.begin.php", "punctuation.section.embedded.end.php"], "settings": { "foreground": "#98c379" } },
+		{ "name": "SQL/Shell/Ruby keywords", "scope": ["keyword.other.shell","keyword.other.sql","keyword.other.DML.sql","keyword.other.DML.II.sql","keyword.other.DDL.create.II.sql","keyword.other.create.sql","keyword.other.alias.sql","keyword.other.order.sql","keyword.other.table.sql","keyword.other.data-integrity.sql","keyword.other.cascade.sql","keyword.other.authorization.sql","keyword.other.object-comments.sql","keyword.other.LUW.sql","keyword.other.special-method.ruby"], "settings": { "foreground": "#c678dd" } }
 	]
 }
