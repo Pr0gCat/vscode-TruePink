@@ -21,6 +21,13 @@ Currently supported language:
 * YAML
 * XML
 * TOML (requires a TOML extension, e.g. Even Better TOML)
+* Rust
+* Go
+* Java
+* PHP
+* Shell
+* SQL
+* Ruby
 * C# (WIPs)
 
 > We like pink.
