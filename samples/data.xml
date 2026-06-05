@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TruePink config — XML -->
+<theme name="TruePink" version="1.7">
+    <color role="main">#fd9999</color>
+    <enabled>true</enabled>
+    <tags count="3">
+        <tag>pink &amp; light</tag>
+        <tag>theme</tag>
+    </tags>
+</theme>
